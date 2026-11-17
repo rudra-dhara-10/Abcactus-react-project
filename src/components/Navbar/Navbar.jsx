@@ -5,7 +5,6 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <nav className="relative w-full border-b border-zinc-300 px-6 md:px-12 lg:px-10 xl:px-36 py-5 flex justify-between items-center">
-      {" "}
       <div className="w-full flex items-center justify-between">
         {/* Logo */}
         <div>

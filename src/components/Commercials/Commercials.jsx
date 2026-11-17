@@ -29,22 +29,12 @@ const Commercials = () => {
             commercial. AdCactus <br className="hidden lg:block" /> analyzed its website, products, imagery,
             and brand style to c
           </p>
-          <button className="px-5 w-30 text-sm py-2 border-none bg-[#ffffff] text-black rounded-4xl cursor-pointer capitalize">
+          <button className="px-5  w-30 text-sm py-2 border-none bg-[#ffffff] text-black rounded-4xl cursor-pointer capitalize">
             Read More
           </button>
         </div>
       </div>
-      <div className="lg:flex hidden lg-block gap-5 w-full items-center">
-        <img className="h-1 w-[92%] flex-1  object-contain" src={Line} alt="" />
-        <div className="flex w-[8%] gap-3 ">
-          <div className="w-10 h-10 border rounded-full flex items-center justify-center">
-            <img src={Vector1} alt="" />
-          </div>
-          <div className="w-10 h-10 border rounded-full flex items-center justify-center">
-            <img src={Vector2} alt="" />
-          </div>
-        </div>
-      </div>
+      
     </div>
   );
 };
